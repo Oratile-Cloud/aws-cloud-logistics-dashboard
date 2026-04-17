@@ -1,46 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Boikanyo Cloud Solutions</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Boikanyo Cloud Solutions (Pty) Ltd</title>
 
 <style>
 body {
 font-family: Arial, sans-serif;
 margin: 0;
-background-color: #f5f7fa;
+padding: 0;
+line-height: 1.6;
+background: #f7f9fc;
+color: #222;
 }
 
 header {
-background-color: #001f3f;
+background: #0f172a;
 color: white;
-padding: 40px;
+padding: 60px 20px;
 text-align: center;
 }
 
-section {
-padding: 40px;
+header h1 {
+margin: 0;
+font-size: 36px;
 }
 
-.services {
-background-color: white;
+header p {
+margin-top: 10px;
+font-size: 18px;
+color: #cbd5e1;
 }
 
-.industries {
-background-color: #f0f4f8;
+.container {
+max-width: 900px;
+margin: auto;
+padding: 40px 20px;
 }
 
-.contact {
-background-color: #001f3f;
-color: white;
-text-align: center;
+h2 {
+color: #0f172a;
+margin-top: 40px;
+}
+
+.card {
+background: white;
+padding: 20px;
+margin-top: 20px;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+ul {
+padding-left: 20px;
 }
 
 footer {
-background-color: #000814;
-color: white;
 text-align: center;
-padding: 20px;
+padding: 30px;
+background: #0f172a;
+color: white;
+margin-top: 40px;
 }
+
+.btn {
+display: inline-block;
+margin-top: 20px;
+padding: 12px 25px;
+background: #2563eb;
+color: white;
+text-decoration: none;
+border-radius: 6px;
+font-weight: bold;
+}
+
+.price {
+font-size: 18px;
+font-weight: bold;
+color: #2563eb;
+}
+
 </style>
 
 </head>
@@ -48,83 +88,101 @@ padding: 20px;
 <body>
 
 <header>
-<h1 style="font-size:40px;">Boikanyo</h1>
-<h3 style="margin-top:-10px;">Cloud Solutions</h3>
-<p>AWS Cloud Migration | Cloud Security | Cost Optimization</p>
+<h1>Boikanyo Cloud Solutions</h1>
+<p>AWS Cloud Migration • Infrastructure • Support</p>
+<a class="btn" href="#contact">Get in Touch</a>
 </header>
 
-  <section>
+<div class="container">
+
 <h2>About Us</h2>
-<p>Boikanyo Cloud Solutions helps businesses migrate to AWS, reduce infrastructure costs, improve performance and secure cloud environments.</p>
-</section>
+<div class="card">
+<p>
+Boikanyo Cloud Solutions is a South Africa-based cloud consulting company helping businesses migrate, manage and optimize cloud infrastructure.
+</p>
 
-<section class="services">
-<h2>Our Services</h2>
+<p>
+We focus on AWS cloud deployments, cost optimization and secure infrastructure for growing companies.
+</p>
+</div>
 
-<h3>Cloud Migration</h3>
-<p>We migrate your applications, databases and servers to AWS.</p>
+<h2>Services</h2>
+<div class="card">
+<ul>
+<li>Cloud Migration (AWS)</li>
+<li>Infrastructure Setup & Deployment</li>
+<li>Cloud Monitoring & Maintenance</li>
+<li>Cloud Security Implementation</li>
+<li>Cost Optimization</li>
+</ul>
+</div>
 
-<h3>Cloud Security</h3>
-<p>Secure your infrastructure using AWS best practices.</p>
-
-<h3>Cost Optimization</h3>
-<p>Reduce AWS monthly costs and improve efficiency.</p>
-
-<h3>Cloud Monitoring</h3>
-<p>24/7 monitoring and performance tracking.</p>
-
-<h4>AWS Architecture & Deployment</h4>
-
-<p>We design scalable and secure AWS cloud architectures using industry best practices.</p>
+<h2>AWS Architecture & Deployment</h2>
+<div class="card">
+<p>We design secure and scalable AWS cloud infrastructure including:</p>
 
 <ul>
 <li>Amazon EC2 Deployment</li>
 <li>Amazon S3 Storage</li>
 <li>Load Balancer Setup</li>
-<li>VPC Configuration</li>
-<li>Auto Scaling</li>
-<li>Cloud Monitoring</li>
+<li>VPC Networking</li>
+<li>Auto Scaling Configuration</li>
+<li>CloudWatch Monitoring</li>
 </ul>
-    
-</section>
 
-<section class="industries">
+</div>
+
 <h2>Industries We Serve</h2>
-
+<div class="card">
 <ul>
 <li>Logistics Companies</li>
 <li>Security Companies</li>
 <li>Financial Services</li>
 <li>Healthcare</li>
 <li>Retail Businesses</li>
-
+<li>Technology Companies</li>
 </ul>
+</div>
 
-<section class="pricing">
-  <h2>Pricing</h2>
+<h2>Pricing</h2>
+<div class="card">
 
-<h3>Cloud Migration</h3>
-<p>Starting from R7,000</p>
+<p>Cloud Migration</p>
+<p class="price">Starting from R7,000</p>
 
-<h3>Cloud Maintenance</h3>
-<p>Starting from R3,500 per month</p>
+<p>Cloud Maintenance</p>
+<p class="price">Starting from R3,500 / month</p>
 
-<h3>Cloud Architecture Setup</h3>
-<p>Starting from R5,000</p>
+<p>Cloud Architecture Setup</p>
+<p class="price">Starting from R5,000</p>
 
-</section>
+</div>
 
-<section class="contact">
-<h2>Contact Us</h2>
+<h2>Why Choose Us</h2>
+<div class="card">
+<ul>
+<li>Fast cloud deployment</li>
+<li>Scalable AWS infrastructure</li>
+<li>Cost optimization focus</li>
+<li>South African-based support</li>
+<li>Reliable cloud engineering</li>
+</ul>
+</div>
+
+<h2 id="contact">Contact</h2>
+<div class="card">
 <p>Email: boikanyocloud@gmail.com</p>
 <p>Location: South Africa</p>
-</section>
+<p>Available for consultations and cloud assessments</p>
+</div>
+
+</div>
 
 <footer>
-<p>Boikanyo Cloud Solutions Pty Ltd</p>
-<p>AWS Cloud Consulting & Migration</p>
+<p>Boikanyo Cloud Solutions (Pty) Ltd</p>
+<p>AWS Cloud Migration • Infrastructure • Support</p>
+<p>© 2026 All Rights Reserved</p>
 </footer>
 
 </body>
-
 </html>
